@@ -10,18 +10,66 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      min-height: 100vh;
+      display: flex;  
+      align-items: center;
+      font-size: 15px;
+    }
+    .container{
+      max-width: 360px;
+      margin: 0 auto;
+    }
+  
+    img{
+      height: 100%;
+      width: 100%;
+      border-radius: 18px;
+    }
+    .card{
+      padding: 18px;
+      border-radius: 17px;
+      background-color: white;
+      text-align: center;
+    }
+    .card h2 {
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      color: hsl(218, 44%, 22%);
+      padding-bottom: 15px;
+    }
+    .card p {
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: hsl(216, 15%, 48%);
+
+    }
+    .card{
+      padding: 22px 10px;
+    }
+    
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Coded by <a href="#">Maitry</a>.
+  <div class="container">
+    <div class="card">
+      <img src="./images/image-qr-code.png" height="50px" width="50px">
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>  
   </div>
+
 </body>
 </html>
